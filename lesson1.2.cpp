@@ -8,6 +8,14 @@
 
 #include <iostream>
 
+//Task 2
+enum GameElements 
+{
+    Empty,
+    Cross,
+    Zero
+};
+
 int main()
 {
     // Task 1
@@ -20,7 +28,6 @@ int main()
         float e = 0.0f;
         double f = 0.0;
     }
-
 
 
 }
