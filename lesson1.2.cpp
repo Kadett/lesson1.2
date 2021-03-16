@@ -17,20 +17,19 @@ enum GameElements
     O
 };
 
-// Task 5 union
-union MyUnion
-{
-    int iVar;
-    float fVar;
-    char cVar;
-};
+
 // Task 5 struct
 struct MyStruct
 {
     unsigned int isInt : 1;
     unsigned int isFloat : 1;
     unsigned int isChar : 1;
-    MyUnion uni;
+    union MyUnion
+    {
+        int iVar;
+        float fVar;
+        char cVar;
+    } uni ;
 };
 
 // Task 4 enum
@@ -92,6 +91,8 @@ int main()
     {
         cout << st.uni.fVar << endl;
     }
+
+   
 
 }
 
