@@ -1,4 +1,4 @@
-
+ 
 *.vcxproj
 
 *.filters
@@ -6,3 +6,5 @@
 *.user
 
 Debug/
+
+.gitignore
